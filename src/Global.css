@@ -1,0 +1,10 @@
+/* Colors */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-font: 'Inter', sans-serif;
+  --primary-color: #1b2e58;
+  --secondary-color: #fe6881;
+}
