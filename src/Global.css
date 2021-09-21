@@ -2,9 +2,21 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: var(--main-font);
 }
 :root {
   --main-font: 'Inter', sans-serif;
   --primary-color: #1b2e58;
+  --primary-color--alt: #324369;
   --secondary-color: #fe6881;
+  --typo-color: #e8efff;
+  --heading: #b9c4f9;
+}
+
+.container {
+  display: flex;
+}
+
+.others {
+  flex: 4;
 }
