@@ -1,0 +1,67 @@
+.widget-s {
+  flex: 1;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.5);
+  background: var(--primary-color);
+  border-radius: 20px;
+  padding: 1.1rem;
+  margin-right: 1.1rem;
+}
+
+.widget-s-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.widget-s-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.widget-s-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widget-s-list--item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.1rem 0;
+}
+
+.widget-s-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--heading);
+}
+
+.widget-s-user--name {
+  font-weight: 600;
+  color: var(--typo-color);
+  margin-bottom: 4px;
+}
+
+.widget-s-user--job {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.widget-s-btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background: var(--heading);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.widget-s-icon {
+  font-size: 1em;
+  margin-right: 5px;
+}

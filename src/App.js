@@ -1,5 +1,6 @@
 import Sidebar from './components/Sidebar/Sidebar';
 import Topbar from './components/Topbar/Topbar';
+import Home from './pages/home/Home';
 import './Global.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="others">placeholder</div>
+        <Home />
       </div>
     </div>
   );

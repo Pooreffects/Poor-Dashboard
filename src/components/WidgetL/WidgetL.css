@@ -1,0 +1,65 @@
+.widget-l {
+  flex: 2;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.5);
+  background: var(--primary-color);
+  border-radius: 20px;
+  padding: 1.1rem;
+}
+
+.widget-l-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.widget-l-table {
+  width: 100%;
+  border-spacing: 1rem;
+  color: var(--typo-color);
+}
+
+.widget-l-th {
+  text-align: left;
+  color: var(--secondary-color);
+}
+
+.widget-l-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1rem;
+}
+
+.widget-l-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widget-l-date,
+.widget-l-amount,
+.widget-l-status {
+  font-weight: 300;
+  color: var(--heading);
+}
+
+.widget-l-btn {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.widget-l-btn.Approved {
+  background: #e5faf2;
+  color: green;
+}
+.widget-l-btn.Declined {
+  background: #fff0f1;
+  color: red;
+}
+.widget-l-btn.Pending {
+  background: #ebf1fe;
+  color: blue;
+}

@@ -1,0 +1,10 @@
+.home {
+  padding-top: 1rem;
+  background: var(--primary-color--alt);
+  flex: 4;
+}
+
+.home-widgets {
+  display: flex;
+  margin: 1.1rem;
+}

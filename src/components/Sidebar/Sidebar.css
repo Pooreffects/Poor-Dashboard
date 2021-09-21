@@ -1,6 +1,6 @@
 .sidebar {
   flex: 1;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 50px);
   background: var(--primary-color);
   position: sticky;
   overflow: hidden;
@@ -8,7 +8,7 @@
 }
 
 .sidebar-container {
-  padding: 15px;
+  padding: 2rem 1rem;
   color: var(--typo-color);
 }
 .sidebar-container--menu {
