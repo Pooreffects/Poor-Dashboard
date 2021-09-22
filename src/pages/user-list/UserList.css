@@ -1,0 +1,45 @@
+.user-list {
+  flex: 4;
+  background: var(--primary-color--alt);
+}
+
+.user-list-user {
+  display: flex;
+  align-items: center;
+  color: var(--typo-color);
+}
+.user-list-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.user-l-email,
+.user-l-transaction,
+.user-l-id {
+  color: var(--heading);
+}
+
+.user-l-status {
+  color: var(--typo-color);
+}
+
+.MuiDataGrid-columnHeader {
+  color: var(--secondary-color);
+}
+.user-l-edit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: var(--typo-color);
+  cursor: pointer;
+  margin-right: 1.2rem;
+}
+
+.user-l-delete {
+  color: var(--secondary-color);
+  cursor: pointer;
+}

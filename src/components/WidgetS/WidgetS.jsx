@@ -1,4 +1,3 @@
-import React from 'react';
 import './WidgetS.css';
 import { Visibility } from '@mui/icons-material';
 function WidgetS() {

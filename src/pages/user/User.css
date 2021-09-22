@@ -1,0 +1,23 @@
+.user {
+  flex: 4;
+  background: var(--primary-color--alt);
+  padding: 1.1rem;
+}
+
+.user-title--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-btn--add {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 1.1em;
+  font-weight: bold;
+}
