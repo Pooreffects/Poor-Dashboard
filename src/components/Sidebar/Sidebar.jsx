@@ -12,6 +12,7 @@ import {
   Timelapse,
   BugReport,
 } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 function Sidebar() {
   return (
@@ -20,10 +21,12 @@ function Sidebar() {
         <div className="sidebar-container--menu">
           <h3 className="menu-title">Dashboard</h3>
           <ul className="menu-list">
-            <li className="menu-list--item">
-              <LineStyle fontSize="small" className="sidebarIcon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="menu-list--item">
+                <LineStyle fontSize="small" className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="menu-list--item">
               <Timeline fontSize="small" className="sidebarIcon" />
               Analytics
@@ -37,14 +40,18 @@ function Sidebar() {
         <div className="sidebar-container--menu">
           <h3 className="menu-title">Quick Menu</h3>
           <ul className="menu-list">
-            <li className="menu-list--item">
-              <PeopleAlt fontSize="small" className="sidebarIcon" />
-              Users
-            </li>
-            <li className="menu-list--item">
-              <Storefront fontSize="small" className="sidebarIcon" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="menu-list--item">
+                <PeopleAlt fontSize="small" className="sidebarIcon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="menu-list--item">
+                <Storefront fontSize="small" className="sidebarIcon" />
+                Products
+              </li>
+            </Link>
             <li className="menu-list--item">
               <AttachMoney fontSize="small" className="sidebarIcon" />
               Transactions

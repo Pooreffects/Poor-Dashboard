@@ -40,7 +40,7 @@ function WidgetL() {
             <span className="widget-l-user--name">Mohamed Benabdellah</span>
           </td>
           <td className="widget-l-date">4th Jul 2021</td>
-          <td className="widget-l-amount">$170.00</td>
+          <td className="widget-l-amount">$320.00</td>
           <td className="widget-l-status">
             <Button type="Declined" />
           </td>
@@ -55,7 +55,7 @@ function WidgetL() {
             <span className="widget-l-user--name">Mohamed Benabdellah</span>
           </td>
           <td className="widget-l-date">4th Jul 2021</td>
-          <td className="widget-l-amount">$170.00</td>
+          <td className="widget-l-amount">$1300.00</td>
           <td className="widget-l-status">
             <Button type="Pending" />
           </td>
@@ -70,7 +70,7 @@ function WidgetL() {
             <span className="widget-l-user--name">Mohamed Benabdellah</span>
           </td>
           <td className="widget-l-date">4th Jul 2021</td>
-          <td className="widget-l-amount">$170.00</td>
+          <td className="widget-l-amount">$400.00</td>
           <td className="widget-l-status">
             <Button type="Approved" />
           </td>

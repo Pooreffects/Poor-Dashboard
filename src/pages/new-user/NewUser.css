@@ -1,0 +1,81 @@
+.new-user {
+  flex: 4;
+  background: var(--primary-color--alt);
+  padding: 2rem;
+}
+
+.new-user-title {
+  color: var(--secondary-color);
+}
+
+.new-user-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-user-item {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 0 0;
+}
+
+.new-user-item > label {
+  margin: 10px;
+  color: var(--heading);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.new-user-item--input {
+  border: none;
+  height: 20px;
+  width: 250px;
+  background: var(--primary-color--alt);
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  border-bottom: 2px solid var(--heading);
+  color: var(--typo-color);
+}
+
+.new-user-item--input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.new-user-gender > input {
+  margin-top: 15px;
+}
+.new-user-gender > label {
+  margin: 10px;
+  font-size: 1.1em;
+  color: var(--secondary-color);
+}
+
+.new-user-select {
+  height: 30px;
+  width: 80px;
+  background: var(--primary-color--alt);
+  border: none;
+  border-radius: 8px;
+  border: 2px solid var(--heading);
+  color: var(--typo-color);
+  margin-top: 8px;
+}
+.new-user-select:focus {
+  outline: none;
+  border: 2px solid var(--secondary-color);
+}
+
+.new-user-btn {
+  margin-top: 2.5rem;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 7px 10px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
