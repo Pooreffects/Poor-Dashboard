@@ -3,6 +3,13 @@
   background: var(--primary-color--alt);
 }
 
+.MuiDataGrid-columnsContainer {
+  color: var(--secondary-color);
+}
+.MuiDataGrid-sortIcon {
+  color: var(--typo-color);
+}
+
 .user-list-user {
   display: flex;
   align-items: center;
