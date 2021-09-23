@@ -1,12 +1,12 @@
-import './UserList.css';
+import './ProductList.css';
 import { DataGrid } from '@mui/x-data-grid';
 import { DeleteOutline } from '@mui/icons-material';
-import { userRows } from '../../data';
+import { productRows } from '../../data';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-function UserList() {
-  const [data, setData] = useState(userRows);
+function ProductList() {
+  const [data, setData] = useState(productRows);
 
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
@@ -18,64 +18,62 @@ function UserList() {
       headerName: 'ID',
       width: 100,
       renderCell: (params) => {
-        return <div className="user-l-id">{params.row.id}</div>;
+        return <div className="product-l-id">{params.row.id}</div>;
       },
     },
     {
-      field: 'user',
-      headerName: 'User',
+      field: 'product',
+      headerName: 'Product',
       width: 200,
       renderCell: (params) => {
         return (
-          <div className="user-list-user">
+          <div className="product-list-user">
             <img
-              className="user-list-avatar"
+              className="product-list-avatar"
               src={params.row.avatar}
               alt="avatar"
             />
-            {params.row.username}
+            {params.row.name}
           </div>
         );
       },
     },
     {
-      field: 'email',
-      headerName: 'Email',
-      width: 200,
+      field: 'stock',
+      headerName: 'Stock',
+      width: 120,
       renderCell: (params) => {
-        return <div className="user-l-email">{params.row.email}</div>;
+        return <div className="product-l-stock">{params.row.stock}</div>;
       },
     },
     {
       field: 'status',
       headerName: 'Status',
-      width: 130,
+      width: 150,
       renderCell: (params) => {
-        return <div className="user-l-status">{params.row.status}</div>;
+        return <div className="product-l-status">{params.row.status}</div>;
       },
     },
     {
-      field: 'transaction',
-      headerName: 'Transaction',
-      width: 160,
+      field: 'price',
+      headerName: 'Price',
+      width: 130,
       renderCell: (params) => {
-        return (
-          <div className="user-l-transaction">{params.row.transaction}</div>
-        );
+        return <div className="product-l-price">{params.row.price}</div>;
       },
     },
     {
       field: 'action',
       headerName: 'Action',
-      width: 150,
+      width: 120,
       renderCell: (params) => {
         return (
           <>
-            <Link to={'/user/' + params.row.id}>
-              <button className="user-l-edit">Edit</button>
+            <Link to={'/product/' + params.row.id}>
+              <button className="product-l-edit">Edit</button>
             </Link>
             <DeleteOutline
-              className="user-l-delete"
+              className="product-l-delete"
               onClick={() => handleDelete(params.row.id)}
             />
           </>
@@ -83,9 +81,8 @@ function UserList() {
       },
     },
   ];
-
   return (
-    <div className="user-list">
+    <div className="product-list">
       <DataGrid
         className="grid"
         rows={data}
@@ -99,4 +96,4 @@ function UserList() {
   );
 }
 
-export default UserList;
+export default ProductList;

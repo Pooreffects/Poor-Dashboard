@@ -1,4 +1,4 @@
-.user-list {
+.product-list {
   flex: 4;
   background: var(--primary-color--alt);
   padding: 2rem;
@@ -11,12 +11,12 @@
   color: var(--typo-color);
 }
 
-.user-list-user {
+.product-list-user {
   display: flex;
   align-items: center;
   color: var(--typo-color);
 }
-.user-list-avatar {
+.product-list-avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -24,20 +24,20 @@
   margin-right: 10px;
 }
 
-.user-l-email,
-.user-l-transaction,
-.user-l-id {
+.product-l-stock,
+.product-l-price,
+.product-l-id {
   color: var(--heading);
 }
 
-.user-l-status {
+.product-l-status {
   color: var(--typo-color);
 }
 
 .MuiDataGrid-columnHeader {
   color: var(--secondary-color);
 }
-.user-l-edit {
+.product-l-edit {
   border: none;
   border-radius: 10px;
   padding: 5px 10px;
@@ -47,7 +47,7 @@
   margin-right: 1.2rem;
 }
 
-.user-l-delete {
+.product-l-delete {
   color: var(--secondary-color);
   cursor: pointer;
 }

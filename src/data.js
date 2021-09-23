@@ -142,3 +142,97 @@ export const userRows = [
     transaction: '70.00',
   },
 ];
+
+/* Users used in the products page table */
+export const productRows = [
+  {
+    id: 1,
+    name: 'Airpods',
+    avatar:
+      'https://images.unsplash.com/photo-1615281612781-4b972bd4e3fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
+    stock: 120,
+    status: 'active',
+    price: '320.00',
+  },
+  {
+    id: 2,
+    name: 'Apple Macbook',
+    avatar:
+      'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=726&q=80',
+    stock: 100,
+    status: 'active',
+    price: '130.00',
+  },
+  {
+    id: 3,
+    name: 'HP Elitebook',
+    avatar:
+      'https://images.unsplash.com/photo-1618412659753-9fcb22e8f515?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+    stock: 47,
+    status: 'active',
+    price: '50.00',
+  },
+  {
+    id: 4,
+    name: 'Asus Zenbook',
+    avatar:
+      'https://images.unsplash.com/photo-1630794180018-433d915c34ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80',
+    stock: 160,
+    status: 'active',
+    price: '500.00',
+  },
+  {
+    id: 5,
+    name: 'Iphone 12 pro max',
+    avatar:
+      'https://images.unsplash.com/photo-1571654681830-ef991494a42a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80',
+    stock: 10,
+    status: 'active',
+    price: '700.00',
+  },
+  {
+    id: 6,
+    name: 'Samsung S21',
+    avatar:
+      'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80',
+    stock: 15,
+    status: 'active',
+    price: '370.00',
+  },
+  {
+    id: 7,
+    name: 'Huawei P30',
+    avatar:
+      'https://images.unsplash.com/photo-1612474522113-6c2c6fc94c9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80',
+    stock: 20,
+    status: 'active',
+    price: '1900.00',
+  },
+  {
+    id: 8,
+    name: 'Ipad Pro',
+    avatar:
+      'https://images.unsplash.com/photo-1542965934-233f2071468e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80',
+    stock: 80,
+    status: 'active',
+    price: '700.00',
+  },
+  {
+    id: 9,
+    name: 'Apple Watch 5',
+    avatar:
+      'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80',
+    stock: 107,
+    status: 'active',
+    price: '500.00',
+  },
+  {
+    id: 10,
+    name: 'Apple TV',
+    avatar:
+      'https://images.unsplash.com/photo-1622954174000-11567fcd002d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80',
+    stock: 35,
+    status: 'active',
+    price: '70.00',
+  },
+];

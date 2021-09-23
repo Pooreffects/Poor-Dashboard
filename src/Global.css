@@ -21,3 +21,18 @@
   text-decoration: none;
   color: inherit;
 }
+
+/* Mui Table Overrides */
+.MuiDataGrid-root {
+  background: var(--primary-color);
+  border: 1px solid var(--heading) !important;
+}
+
+.MuiTypography-root,
+.MuiTablePagination-caption,
+.makeStyles-caption-2,
+.MuiTypography-body2,
+.MuiTypography-colorInherit,
+.MuiTablePagination-actions {
+  color: var(--typo-color) !important;
+}
