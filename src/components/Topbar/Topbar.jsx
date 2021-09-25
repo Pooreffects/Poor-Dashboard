@@ -1,13 +1,11 @@
 import './Topbar.css';
 import { NotificationsNone, Language, Settings } from '@mui/icons-material';
-
+import logo from '../../assets/logo.png';
 function Topbar() {
   return (
     <div className="topbar">
       <div className="topbar-container">
-        <div className="topbar-container--left">
-          <span className="logo">POOR-dashboard</span>
-        </div>
+        <img src={logo} alt="logo" className="logo" />
         <div className="topbar-container--right">
           <div className="topbar-container--icons">
             <NotificationsNone />

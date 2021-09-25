@@ -53,5 +53,5 @@
 }
 
 .featured-sub {
-  color: gray;
+  color: var(--primary-color--alt);
 }

@@ -27,19 +27,6 @@ function Sidebar() {
                 Home
               </li>
             </Link>
-            <li className="menu-list--item">
-              <Timeline fontSize="small" className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="menu-list--item">
-              <TrendingUp fontSize="small" className="sidebarIcon" />
-              Sales
-            </li>
-          </ul>
-        </div>
-        <div className="sidebar-container--menu">
-          <h3 className="menu-title">Quick Menu</h3>
-          <ul className="menu-list">
             <Link to="/users" className="link">
               <li className="menu-list--item">
                 <PeopleAlt fontSize="small" className="sidebarIcon" />
@@ -52,6 +39,19 @@ function Sidebar() {
                 Products
               </li>
             </Link>
+          </ul>
+        </div>
+        <div className="sidebar-container--menu">
+          <h3 className="menu-title">Quick Menu</h3>
+          <ul className="menu-list">
+            <li className="menu-list--item">
+              <Timeline fontSize="small" className="sidebarIcon" />
+              Analytics
+            </li>
+            <li className="menu-list--item">
+              <TrendingUp fontSize="small" className="sidebarIcon" />
+              Sales
+            </li>
             <li className="menu-list--item">
               <AttachMoney fontSize="small" className="sidebarIcon" />
               Transactions

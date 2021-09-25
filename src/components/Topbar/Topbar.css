@@ -14,12 +14,9 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
-  font-family: var(--main-font);
-  font-size: 1.4em;
-  font-weight: bold;
-  color: var(--secondary-color);
-  cursor: pointer;
+  padding: 1rem 0 0 2rem;
 }
 
 .topbar-container--right {
